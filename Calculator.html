@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ 
+<head>
+    <title>Call Queue Later</title>
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <script src="calfunc.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>
+            Basic Calculator
+        </h1>
+
+           
+    <table class = "calcu" >
+        <tr>
+            <td colspan = "3"><input class="insert" type="text" id="outcome"></td>
+            <td><button class="other" onclick="clearScreen()">C</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button" onclick="display('1')">1</button></td>
+            <td><button class="button" onclick="display('2')">2</button></td>
+            <td><button class="button" onclick="display('3')">3</button></td>
+            <td><button class="button" onclick="display('/')">/</button></td>
+        </tr>
+    
+        <tr>
+            <td><button class="button" onclick="display('4')">4</button></td>
+            <td><button class="button" onclick="display('5')">5</button></td>
+            <td><button class="button" onclick="display('6')">6</button></td>
+            <td><button class="button" onclick="display('*')">*</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button" onclick="display('7')">7</button></td>
+            <td><button class="button" onclick="display('8')">8</button></td>
+            <td><button class="button" onclick="display('9')">9</button></td>
+            <td><button class="button" onclick="display('-')">-</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="button" onclick="display('0')">0</button></td>
+            <td><button class="button" onclick="display('%')">%</button></td>
+            <td><button class="other" onclick="calculate()"  >=</button></td>
+            <td><button class="button" onclick="display('+')">+</button></td>
+            
+        </tr>
+
+    </table>
+        
+    </center>
+</body>
